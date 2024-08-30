@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('tbllivros', function (Blueprint $table) {
             $table->id("codigo");
-            $table->string('nomeLivro', 30);    // nomeLivro varchar(30)
-            $table->string('generoLivro', 10);  // generoLivro varchar(10)
+            $table->string('nomeLivro', 350);    // nomeLivro varchar(30)
+            $table->string('generoLivro', 350);  // generoLivro varchar(10)
             $table->date("anoLivro");
             $table->timestamps();
         });
